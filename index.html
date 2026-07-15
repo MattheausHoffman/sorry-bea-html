@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dedicatória</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<main class="dedicatoria-page">
+
+    <section class="envelope-scene" id="envelopeScene">
+
+        <p class="envelope-hint">
+            Tem uma carta pra você 💗
+        </p>
+
+        <button
+            id="envelope"
+            class="envelope">
+
+            <span class="envelope-top"></span>
+
+            <span class="envelope-paper">
+                <span>Para Beatriz</span>
+            </span>
+
+            <span class="envelope-seal">
+                <i class="fa-solid fa-heart"></i>
+            </span>
+
+        </button>
+
+        <p class="envelope-tip">
+            Clique no lacre para abrir ✨
+        </p>
+
+    </section>
+
+    <section
+        class="card letter-reveal"
+        id="letter"
+        style="display:none;">
+
+        <p class="tagline">
+            <i class="fa-solid fa-heart"></i>
+            Uma cartinha digital pra você
+        </p>
+
+        <h1>
+            Beatriz, me desculpa? 💌
+        </h1>
+
+        <p class="subtitle">
+            Fiz essa página com carinho pra tentar transformar meu pedido de desculpas em algo leve, bonito e cheio de amor.
+        </p>
+
+        <article class="message-box">
+            <p id="message"></p>
+        </article>
+
+        <div class="actions">
+
+            <button class="btn secondary" id="nextMessage">
+                <i class="fa-regular fa-face-smile"></i>
+                Outra mensagem
+            </button>
+
+            <button class="btn secondary" id="loveRain">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Chuva de amor
+            </button>
+
+        </div>
+
+        <button class="btn primary" id="forgive">
+
+            <svg class="btn-heart" viewBox="0 0 24 24">
+                <path
+                    d="M12 21s-6.7-4.4-9.4-8.4C.8 9.9 2 5.9 5.7 4.8c2-.6 4.1 0 5.3 1.6 1.2-1.6 3.3-2.2 5.3-1.6 3.7 1.1 4.9 5.1 3.1 7.8C18.7 16.6 12 21 12 21z" />
+            </svg>
+
+            Me perdoa?
+
+        </button>
+
+        <p
+            class="accepted-message"
+            id="accepted"
+            style="display:none;">
+
+            <i class="fa-solid fa-heart-circle-check"></i>
+
+            Obrigado por me ouvir. Vou fazer melhor daqui pra frente. 🌷
+
+        </p>
+
+        <footer class="signature">
+            Com carinho, de alguém que se importa muito com você.
+        </footer>
+
+    </section>
+
+    <div class="floating-hearts" id="hearts"></div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
